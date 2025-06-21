@@ -3,6 +3,7 @@ class Solution {
         int n = matrix.length;
 
         // Step 1: Transpose the matrix
+        // We do that by traversing in upper traiangular matrix 
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
                 // Swap matrix[i][j] with matrix[j][i]
